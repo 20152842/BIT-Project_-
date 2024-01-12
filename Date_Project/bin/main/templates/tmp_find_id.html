@@ -1,0 +1,33 @@
+<html layout:decorate="~{layout}">
+
+<head>
+
+	<script>
+		window.onload = function() {
+			var name = document.getElementById('test');
+			alert(name.value)
+			document.location.href="/user/login";
+
+		}
+	</script>
+</head>
+
+<body>
+	<div layout:fragment="content" class="container my-3">
+		<div class="my-3 border-bottom">
+			
+		</div>
+		<form th:action="@{user/find_id}" th:object="${user}" method="POST">
+			<div th:replace="form_errors :: formErrorsFragment"></div>
+			
+
+			<input th:value="${user.username}" type="text" id="test" hidden="true" />
+			<div test()></div>
+			
+		</form>
+	</div>
+
+</body>
+
+
+</html>

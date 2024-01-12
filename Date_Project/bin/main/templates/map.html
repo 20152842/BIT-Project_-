@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>다음 지도 API</title>
+</head>
+<body>
+	<div id="map" style="width:100%;height:100vh;"></div>
+
+	<script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0772f4b5ac4f67b2e90f91a4b861bdad"></script>
+	<script>
+		var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+		    mapOption = {
+				center: new kakao.maps.LatLng(37.485225, 126.811514), // 지도의 중심좌표
+		        // center: new kakao.maps.LatLng(37.56682, 126.97865), // 지도의 중심좌표
+		        level: 3, // 지도의 확대 레벨
+		        mapTypeId : kakao.maps.MapTypeId.ROADMAP // 지도종류
+		    }; 
+
+		// 지도를 생성한다 
+		var map = new kakao.maps.Map(mapContainer, mapOption); 
+
+		var data = [
+			[37.485225, 126.811525, '<div style="padding:5px;">Hello World! <br><a href="https://map.kakao.com/link/map/Hello World!,33.450701,126.570667" style="color:blue" target="_blank">큰지도보기</a> <a href="https://map.kakao.com/link/to/Hello World!,33.450701,126.570667" style="color:blue" target="_blank">길찾기</a></div>' ],
+			[37.46851044224279, 126.797275939562, '<div style="padding:5px;">{{name}}  <br><a href="https://map.kakao.com/link/map/Hello World!,33.450701,126.570667" style="color:blue" target="_blank">큰지도보기</a> <a href="https://map.kakao.com/link/to/Hello World!,33.450701,126.570667" style="color:blue" target="_blank">길찾기</a></div>' ],
+			[37.484099, 126.782881, '<div style="padding:5px;">Hello World! <br><a href="https://map.kakao.com/link/map/Hello World!,33.450701,126.570667" style="color:blue" target="_blank">큰지도보기</a> <a href="https://map.kakao.com/link/to/Hello World!,33.450701,126.570667" style="color:blue" target="_blank">길찾기</a></div>' ]
+		]
+
+		for(var i=0; i < data.length; i++){
+// 지도에 마커를 생성하고 표시한다
+var marker = new kakao.maps.Marker({
+			position: new kakao.maps.LatLng(data[i][0],data[i][1],data[i][2]), // 마커의 좌표
+		    // position: new kakao.maps.LatLng(37.56682, 126.97865), // 마커의 좌표
+		    map: map // 마커를 표시할 지도 객체
+		});
+
+	// 	var iwContent = '<div style="padding:5px;">Hello World! <br><a href="https://map.kakao.com/link/map/Hello World!,33.450701,126.570667" style="color:blue" target="_blank">큰지도보기</a> <a href="https://map.kakao.com/link/to/Hello World!,33.450701,126.570667" style="color:blue" target="_blank">길찾기</a></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+    // iwPosition = new kakao.maps.LatLng(33.450701, 126.570667); //인포윈도우 표시 위치입니다
+
+// 인포윈도우를 생성합니다
+var infowindow = new kakao.maps.InfoWindow({
+    // position : iwPosition, 
+    // content : iwContent
+	content : data[i][2] 
+});
+  
+// 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
+infowindow.open(map, marker);
+		}
+		 
+
+
+
+// // 지도에 마커를 생성하고 표시한다
+// var marker = new kakao.maps.Marker({
+// 			position: new kakao.maps.LatLng(37.483315, 126.794773), // 마커의 좌표
+// 		    // position: new kakao.maps.LatLng(37.56682, 126.97865), // 마커의 좌표
+// 		    map: map // 마커를 표시할 지도 객체
+// 		});
+
+// 		var iwContent = '<div style="padding:5px;">Hello World! <br><a href="https://map.kakao.com/link/map/Hello World!,33.450701,126.570667" style="color:blue" target="_blank">큰지도보기</a> <a href="https://map.kakao.com/link/to/Hello World!,33.450701,126.570667" style="color:blue" target="_blank">길찾기</a></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+//     iwPosition = new kakao.maps.LatLng(37.483315, 126.794773); //인포윈도우 표시 위치입니다
+
+// // 인포윈도우를 생성합니다
+// var infowindow = new kakao.maps.InfoWindow({
+//     position : iwPosition, 
+//     content : iwContent 
+// });
+  
+// // 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
+// infowindow.open(map, marker);
+
+
+
+// // 지도에 마커를 생성하고 표시한다
+// var marker = new kakao.maps.Marker({
+// 			position: new kakao.maps.LatLng(37.484099, 126.782881), // 마커의 좌표
+// 		    // position: new kakao.maps.LatLng(37.56682, 126.97865), // 마커의 좌표
+// 		    map: map // 마커를 표시할 지도 객체
+// 		});
+
+// 		var iwContent = '<div style="padding:5px;">Hello World! <br><a href="https://map.kakao.com/link/map/Hello World!,33.450701,126.570667" style="color:blue" target="_blank">큰지도보기</a> <a href="https://map.kakao.com/link/to/Hello World!,33.450701,126.570667" style="color:blue" target="_blank">길찾기</a></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+//     iwPosition = new kakao.maps.LatLng(37.484099, 126.782881); //인포윈도우 표시 위치입니다
+
+// // 인포윈도우를 생성합니다
+// var infowindow = new kakao.maps.InfoWindow({
+//     position : iwPosition, 
+//     content : iwContent 
+// });
+  
+// // 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
+// infowindow.open(map, marker);
+		
+	</script>
+	<script src="/js/map.js"></script>
+</body>
+</html>
+<!-- 37.485225, 126.811514   역곡역-->
+<!-- 37.483315, 126.794773   소사역 -->
+<!-- 37.484099, 126.782881	부천역 -->

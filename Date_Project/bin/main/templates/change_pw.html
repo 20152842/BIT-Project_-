@@ -1,0 +1,36 @@
+<html layout:decorate="~{layout}">
+<div layout:fragment="content" class="container my-3">
+    <div class="my-3 border-bottom">
+        <div>
+            <h4>비밀번호 변경</h4>
+        </div>
+    </div>
+    <form th:action="@{/user/change_pwd}" th:object="${user}" method="post">
+        <div th:replace="form_errors :: formErrorsFragment"></div>    
+         <div class="mb-3">
+            <label for="password" class="form-label">현재 비밀번호</label>
+            <input type="password" placeholder="현재 비밀번호를 입력해주세요" id="password" th:field="*{password}" class="form-control">
+        </div> 
+        <div class="mb-3">
+			<label for="password1" class="form-label">비밀번호</label>
+			<input type="password" placeholder="비밀번호를 입력해주세요" id="password1" th:field="*{password1}" class="form-control">
+			<small class="form-text text-danger" th:if="${#fields.hasErrors('password1')}" th:errors="*{password1}">Password1
+				Error</small>
+			
+		</div>
+		<div class="mb-3">
+			<label for="password2" class="form-label">비밀번호 확인</label>
+			<input type="password" placeholder="비밀번호를 확인해주세요" id="password2" th:field="*{password2}" class="form-control">
+			<small class="form-text text-danger" th:if="${#fields.hasErrors('password2')}" th:errors="*{password2}">Password2
+				Error</small>
+			
+		</div>
+		
+		<!--<div class="mb-3">
+			<input type="hidden" id="username" th:value="${user.username}"/>
+		</div>-->
+        
+        <button type="submit" class="btn btn-primary">비밀번호 변경</button>
+    </form>
+</div>
+</html>
