@@ -103,13 +103,11 @@
 
 |Board|Board Ex|
 |:-:|:-:|
-|![스크린샷 2024-03-24 165746](https://github.com/20152842/BIT-Project/assets/66324867/e8545046-a4a2-47bb-a1fe-0318c944c15e)
-|![스크린샷 2024-03-24 165817](https://github.com/20152842/BIT-Project/assets/66324867/bb7c6e10-d692-45b7-8845-34403b1b99e3)|
+|![스크린샷 2024-03-24 165746](https://github.com/20152842/BIT-Project/assets/66324867/e8545046-a4a2-47bb-a1fe-0318c944c15e)|![스크린샷 2024-03-24 165817](https://github.com/20152842/BIT-Project/assets/66324867/bb7c6e10-d692-45b7-8845-34403b1b99e3)|
 
 |Sign up|Sign in|
 |:-:|:-:|
-|![스크린샷 2024-03-24 165851](https://github.com/20152842/BIT-Project/assets/66324867/861416a3-dd33-4ca6-8a97-a55511ffb631)|
-|![스크린샷 2024-03-24 165835](https://github.com/20152842/BIT-Project/assets/66324867/4e8c099c-7ae2-4307-a9d2-1aed9347f523)
+|![스크린샷 2024-03-24 165851](https://github.com/20152842/BIT-Project/assets/66324867/861416a3-dd33-4ca6-8a97-a55511ffb631)|![스크린샷 2024-03-24 165835](https://github.com/20152842/BIT-Project/assets/66324867/4e8c099c-7ae2-4307-a9d2-1aed9347f523)|
 
 ---
 
