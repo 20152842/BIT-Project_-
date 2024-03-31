@@ -97,26 +97,21 @@
 
 ## 💻 웹 페이지 구성
 
-|Main Page|Upload Page|Receive Page|
+|Main|Introduction|How to use|
 |:-:|:-:|:-:|
 |![스크린샷 2024-03-24 171954](https://github.com/20152842/BIT-Project/assets/66324867/51065dd1-b7e7-4f03-8ce8-bae3b5d4b3a6)|![스크린샷 2024-03-24 165641](https://github.com/20152842/BIT-Project/assets/66324867/7c1356d5-a10b-4267-8c85-4997c10c5e86)|![스크린샷 2024-03-24 165708](https://github.com/20152842/BIT-Project/assets/66324867/4423d761-8f77-4269-afca-c064ac41ff83)|
 
-|Main Page|Upload Page|Receive Page|
+|Board|Board Ex|
+|:-:|:-:|
+|![스크린샷 2024-03-24 165746](https://github.com/20152842/BIT-Project/assets/66324867/e8545046-a4a2-47bb-a1fe-0318c944c15e)
+|![스크린샷 2024-03-24 165817](https://github.com/20152842/BIT-Project/assets/66324867/bb7c6e10-d692-45b7-8845-34403b1b99e3)|
+
+|Sign up|Sign in|
+|:-:|:-:|
+|![스크린샷 2024-03-24 165851](https://github.com/20152842/BIT-Project/assets/66324867/861416a3-dd33-4ca6-8a97-a55511ffb631)|
+|![스크린샷 2024-03-24 165835](https://github.com/20152842/BIT-Project/assets/66324867/4e8c099c-7ae2-4307-a9d2-1aed9347f523)
 
 ---
-
-
-#### 게시판
-![스크린샷 2024-03-24 165746](https://github.com/20152842/BIT-Project/assets/66324867/e8545046-a4a2-47bb-a1fe-0318c944c15e)
-
-#### 게시판 이용
-![스크린샷 2024-03-24 165817](https://github.com/20152842/BIT-Project/assets/66324867/bb7c6e10-d692-45b7-8845-34403b1b99e3)
-
-#### 로그인
-![스크린샷 2024-03-24 165835](https://github.com/20152842/BIT-Project/assets/66324867/4e8c099c-7ae2-4307-a9d2-1aed9347f523)
-
-#### 회원 가입
-![스크린샷 2024-03-24 165851](https://github.com/20152842/BIT-Project/assets/66324867/861416a3-dd33-4ca6-8a97-a55511ffb631)
 
 ### 주요 기능 - 코스 추천
 
