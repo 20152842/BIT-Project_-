@@ -109,15 +109,14 @@
 |:-:|:-:|
 |![스크린샷 2024-03-24 165851](https://github.com/20152842/BIT-Project/assets/66324867/861416a3-dd33-4ca6-8a97-a55511ffb631)|![스크린샷 2024-03-24 165835](https://github.com/20152842/BIT-Project/assets/66324867/4e8c099c-7ae2-4307-a9d2-1aed9347f523)|
 
----
+
+
 
 ### 주요 기능 - 코스 추천
 
-![스크린샷 2024-03-24 165912](https://github.com/20152842/BIT-Project/assets/66324867/75b2d20c-8640-4042-9e30-ab309cce3790)
 
-![스크린샷 2024-03-24 165925](https://github.com/20152842/BIT-Project/assets/66324867/ce6566c5-35f2-4414-91b8-b9692a2ab6e8)
-
-![스크린샷 2024-03-24 165946](https://github.com/20152842/BIT-Project/assets/66324867/22fbf8f4-ae9f-4147-a6e1-7e2bb56c59d4)
+|:-:|:-:|:-:|
+|![스크린샷 2024-03-24 165912](https://github.com/20152842/BIT-Project/assets/66324867/75b2d20c-8640-4042-9e30-ab309cce3790)|![스크린샷 2024-03-24 165925](https://github.com/20152842/BIT-Project/assets/66324867/ce6566c5-35f2-4414-91b8-b9692a2ab6e8)|![스크린샷 2024-03-24 165946](https://github.com/20152842/BIT-Project/assets/66324867/22fbf8f4-ae9f-4147-a6e1-7e2bb56c59d4)|
 
 
 
