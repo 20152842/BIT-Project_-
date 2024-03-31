@@ -97,10 +97,9 @@
 
 ## 💻 웹 페이지 구성
 
-|Main Page|
-|:-:|
-|![스크린샷 2024-03-24 171954](https://github.com/20152842/BIT-Project/assets/66324867/51065dd1-b7e7-4f03-8ce8-bae3b5d4b3a6)|![스크린샷 2024-03-24 165641](https://github.com/20152842/BIT-Project/assets/66324867/7c1356d5-a10b-4267-8c85-4997c10c5e86)|![스크린샷 2024-03-24 165708](https://github.com/20152842/BIT-Project/assets/66324867/4423d761-8f77-4269-afca-c064ac41ff83)
-|
+|Main Page|Upload Page|Receive Page|
+|:-:|:-:|:-:|
+|![스크린샷 2024-03-24 171954](https://github.com/20152842/BIT-Project/assets/66324867/51065dd1-b7e7-4f03-8ce8-bae3b5d4b3a6)|![스크린샷 2024-03-24 165641](https://github.com/20152842/BIT-Project/assets/66324867/7c1356d5-a10b-4267-8c85-4997c10c5e86)|![스크린샷 2024-03-24 165708](https://github.com/20152842/BIT-Project/assets/66324867/4423d761-8f77-4269-afca-c064ac41ff83)|
 
 |Main Page|Upload Page|Receive Page|
 
