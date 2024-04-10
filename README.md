@@ -73,6 +73,9 @@
                
         2. 키워드 선정
            - 사용자가 선택할 키워드 20개를 선정
+
+
+           
              ![image](https://github.com/20152842/BIT-Project/assets/66324867/bd113afa-99d0-4ad7-b512-99e019935358)
       
 
