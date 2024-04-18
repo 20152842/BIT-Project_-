@@ -13,7 +13,7 @@
 ## 📝 프로젝트 주요한 기술
 - Spring Framework를 활용한 웹 서비스 제작
   - MVC 패턴을 활용하여 프로젝트 구성
-  - React와 Thymeleaf 활용하여 연동
+  - React와 Thymeleaf 활용하여 Front-End 구성
   - 데이터 베이스 관리
     - Mysql을 활용한 데이터 베이스 관리 
     - Mybatis, JDBC, JPA, Hibernate를 사용하여 구현
