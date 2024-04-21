@@ -12,8 +12,8 @@
 
 ## 📝 프로젝트에 기여한 부분
 - Spring Framework를 활용한 웹 서비스 제작
-  - MVC 패턴을 활용하여 프로젝트 구성
-  - React와 Thymeleaf 활용하여 Front-End 구성
+  - Backend 의 전체적인 설계 및 구현
+  - Thymeleaf 활용하여 Front-End 구성
   - 데이터 베이스 관리
     - Mysql을 활용한 데이터 베이스 관리 
     - Mybatis, JDBC, JPA, Hibernate를 사용하여 구현
@@ -22,8 +22,9 @@
     - Spring에서 제공하는 Security를 활용하여 로그인 구현
        
 - Deep Learning을 활용한 추천 서비스 제작
-  - 수집한 데이터를 Deep Learning을 활용하여 수치화
-  - 저장된 수치를 기반으로 사용자에게 추천
+  - 구상, 설계, 학습, 응용 진행
+  - 수집한 데이터 전처리 및 가공
+  - Deep Learning을 활용하여 추천 서비스 제작
   - **자세한 과정은 아래에 서술**
 ---
 ## 🔥 Deep Learning을 활용한 수치화 과정
